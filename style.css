@@ -5,12 +5,13 @@
     font-family: "Momo Trust Display", sans-serif;
     font-size: 24px;
 }
+
 /*HEADER---------------------------------------------------*/
 header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,18 +19,19 @@ header {
     z-index: 1000; /* порядок накладання елементів */
 }
 
-.logo {
-    font-weight: bold;
-    font-size: 24px;
+.logo img {
+    max-height: 45px;
+    width: auto;
+    display: block;
 }
 
-.logo a {
+/* .logo a {
     text-decoration: none;
 }
 
 .logo a:hover {
     color: brown;
-}
+} */
 
 nav a {
     text-decoration: none;
@@ -129,7 +131,6 @@ header nav {
 }
 
 /*TEAM---------------------------------------------------*/
-/* Clear floats: makes the container respect floated elements inside */
 .team {
   display: flex;
   flex-wrap: wrap; /* wrapping elements to a new line */
