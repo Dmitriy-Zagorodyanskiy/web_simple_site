@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px; 
-    z-index: 1000; /* порядок накладання елементів */
+    z-index: 1000; /* order of overlapping elements */
 }
 
 .logo img {
@@ -24,14 +24,6 @@ header {
     width: auto;
     display: block;
 }
-
-/* .logo a {
-    text-decoration: none;
-}
-
-.logo a:hover {
-    color: brown;
-} */
 
 nav a {
     text-decoration: none;
@@ -89,7 +81,7 @@ header nav {
     display: inline-block;
     background-color: #a8a8db;
     padding: 25px 10px;
-    align-self: flex-start; /* запобігання розтягуванню */
+    align-self: flex-start; /* preventing stretching */
     border-radius: 20px;
     text-decoration: none;
     margin-top: 50px;
